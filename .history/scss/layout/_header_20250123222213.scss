@@ -61,8 +61,10 @@
     }
 
     &__btn {
-        @extend %flexItemsCenter;
+        display: flex;
+        align-items: center;
         gap: 10px;
+        // justify-content: center;
         padding: 13px 20px;
         cursor: pointer;
     }

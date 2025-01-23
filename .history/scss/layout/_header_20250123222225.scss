@@ -63,6 +63,7 @@
     &__btn {
         @extend %flexItemsCenter;
         gap: 10px;
+        // justify-content: center;
         padding: 13px 20px;
         cursor: pointer;
     }

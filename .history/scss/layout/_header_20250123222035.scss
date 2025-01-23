@@ -18,14 +18,16 @@
     margin-right: auto;
 
     &__List {
-        @extend %flexItemsCenter;
+        display: flex;
+        align-items: center;
         gap: 30px;
     }
 
     &__link {
-        @extend %flexItemsCenter;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 6px;
-
         font-size: 1.5rem;
         font-weight: 500;
         line-height: 1.46 0.667%; // <=>2.2rem
@@ -42,11 +44,13 @@
 }
 
 .top-act {
-    @extend %flexItemsCenter;
+    display: flex;
+    align-items: center;
     gap: 20px;
 
     &__group {
-        @extend %flexItemsCenter;
+        display: flex;
+        align-items: center;
 
         min-width: 50px;
         height: 50px;
@@ -61,8 +65,10 @@
     }
 
     &__btn {
-        @extend %flexItemsCenter;
+        display: flex;
+        align-items: center;
         gap: 10px;
+        // justify-content: center;
         padding: 13px 20px;
         cursor: pointer;
     }

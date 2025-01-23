@@ -6,8 +6,6 @@
 
 :root {
     --text-color: #1a162e;
-    --icon-color: brightness(0) saturate(100%) invert(8%) sepia(6%)
-        saturate(7469%) hue-rotate(212deg) brightness(101%) contrast(96%);
 }
 
 html {
@@ -17,7 +15,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Gordita, sans-serif;
-    color: var(--text-color);
 }
 
 a {
@@ -29,16 +26,4 @@ button {
     border: none;
     outline: none;
     background: transparent;
-}
-
-button,
-input,
-textarea,
-select {
-    font-family: inherit;
-    color: inherit;
-}
-
-.icon {
-    filter: var(--icon-color);
 }
