@@ -1,0 +1,23 @@
+.header {
+    background: #eee;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    margin-left: 144px;
+
+    &__List {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.46 0.667%; //2.2rem
+    }
+}

@@ -1,0 +1,29 @@
+.header {
+    background: #eee;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    margin-left: 144px;
+
+    &__List {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.46 0.667%; // <=>2.2rem 
+
+        % = (2.2 * 10) / 15 * 100
+% = 22 / 15 * 100
+% ≈ 146.667%
+
+    }
+}
