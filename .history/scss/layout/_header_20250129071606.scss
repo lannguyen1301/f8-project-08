@@ -34,10 +34,6 @@
 .navbar {
     margin-left: 144px;
 
-    @include abstracts.breakpoint(xl) {
-        margin-left: 50px;
-    }
-
     @include abstracts.breakpoint(lg) {
         display: none;
     }
@@ -81,7 +77,7 @@
         background-color: var(--top-act-group-bg-color);
         box-shadow: 0px 20px 60px 10px var(--top-act-group-shadow);
 
-        @include abstracts.breakpoint(md) {
+        @include abstracts.breakpoint(sm) {
             display: none;
         }
     }
