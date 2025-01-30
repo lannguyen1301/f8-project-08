@@ -11,7 +11,8 @@
     }
 
     @include abstracts.breakpoint(sm) {
-        margin-left: 0;
+        gap: 10px;
+        margin-left: 40px;
     }
 
     &__title {
