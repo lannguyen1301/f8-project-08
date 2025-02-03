@@ -1,7 +1,5 @@
 // chen thu vien mixins abstracts
-@use "../abstracts";
-
-.dropdown {
+@use "../abstracts" .dropdown {
     position: absolute;
     left: 0;
 

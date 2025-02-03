@@ -1,6 +1,3 @@
-// chen thu vien mixins abstracts
-@use "../abstracts";
-
 .dropdown {
     position: absolute;
     left: 0;
@@ -57,10 +54,6 @@
         flex-shrink: 0;
         width: 36px;
         height: 36px;
-
-        @include abstracts.breakpoint(xl) {
-            display: none;
-        }
     }
 
     &__content {
