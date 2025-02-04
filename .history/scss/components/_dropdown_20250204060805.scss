@@ -96,7 +96,7 @@
     }
 
     &__item {
-        &--active .sub-menu {
+        &--active.sub-menu {
             display: grid;
         }
     }
