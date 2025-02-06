@@ -89,10 +89,6 @@
         @include abstracts.breakpoint(lg) {
             flex-direction: column;
             align-items: flex-start;
-
-            overflow-y: auto;
-            height: calc(100% - 26px);
-            background-color: orange;
         }
     }
 

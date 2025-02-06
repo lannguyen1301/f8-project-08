@@ -59,7 +59,6 @@
         @include abstracts.breakpoint(lg) {
             width: 100%;
             height: auto;
-            border-right: none;
         }
     }
 }
@@ -80,10 +79,6 @@
 
         @include abstracts.breakpoint(xl) {
             display: none;
-        }
-
-        @include abstracts.breakpoint(lg) {
-            display: block;
         }
     }
 
@@ -151,11 +146,6 @@
     padding-left: var(--inner-padding);
 
     overflow-y: auto;
-
-    @include abstracts.breakpoint(lg) {
-        position: initial;
-        grid-template-columns: 1fr;
-    }
 
     &--not-main {
         position: initial;

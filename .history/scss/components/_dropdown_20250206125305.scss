@@ -154,7 +154,6 @@
 
     @include abstracts.breakpoint(lg) {
         position: initial;
-        grid-template-columns: 1fr;
     }
 
     &--not-main {
