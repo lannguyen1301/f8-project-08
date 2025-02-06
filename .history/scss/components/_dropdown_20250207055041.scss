@@ -36,7 +36,6 @@
         }
         @include abstracts.breakpoint(lg) {
             padding: 0 40px;
-
             border-radius: 0;
             background: transparent;
             box-shadow: none;
@@ -74,10 +73,6 @@
 
     + .menu-column {
         margin-top: 22px;
-    }
-
-    @include abstracts.breakpoint(lg) {
-        margin-top: 10px;
     }
 
     &__icon {
@@ -121,18 +116,10 @@
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 150%;
-
-        @include abstracts.breakpoint(lg) {
-            margin-bottom: 26px;
-        }
     }
 
     &__list {
         margin-top: 19px;
-
-        @include abstracts.breakpoint(lg) {
-            margin-top: 0;
-        }
     }
 
     &__item {
@@ -171,7 +158,6 @@
     @include abstracts.breakpoint(lg) {
         position: initial;
         grid-template-columns: 1fr;
-        padding-left: 0;
     }
 
     &--not-main {

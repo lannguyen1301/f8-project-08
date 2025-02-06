@@ -76,10 +76,6 @@
         margin-top: 22px;
     }
 
-    @include abstracts.breakpoint(lg) {
-        margin-top: 10px;
-    }
-
     &__icon {
         position: relative;
         flex-shrink: 0;
@@ -121,10 +117,6 @@
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 150%;
-
-        @include abstracts.breakpoint(lg) {
-            margin-bottom: 26px;
-        }
     }
 
     &__list {
@@ -171,7 +163,6 @@
     @include abstracts.breakpoint(lg) {
         position: initial;
         grid-template-columns: 1fr;
-        padding-left: 0;
     }
 
     &--not-main {

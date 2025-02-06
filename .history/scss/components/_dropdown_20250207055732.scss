@@ -122,7 +122,7 @@
         font-weight: 500;
         line-height: 150%;
 
-        @include abstracts.breakpoint(lg) {
+        @include abstracts.breakpoint {
             margin-bottom: 26px;
         }
     }

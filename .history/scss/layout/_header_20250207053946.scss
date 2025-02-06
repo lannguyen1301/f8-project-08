@@ -102,6 +102,10 @@
         }
 
         @include abstracts.breakpoint(lg) {
+            &:hover .dropdown {
+                display: none;
+            }
+
             width: 100%;
         }
     }
