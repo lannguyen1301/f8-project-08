@@ -146,10 +146,6 @@
             transition: rotate 0.3s;
         }
     }
-
-    &__item--active &__arrow {
-        rotate: 0deg;
-    }
 }
 
 .top-act {

@@ -11,6 +11,7 @@
 
     @include abstracts.breakpoint(lg) {
         position: initial;
+        display: none;
         padding-top: 0;
     }
 
