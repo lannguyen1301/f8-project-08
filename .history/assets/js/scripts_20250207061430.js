@@ -126,7 +126,6 @@ function handleActiveMenu() {
                     if (window.innerWidth > 991) return;
                     removeActive(menu);
                     item.classList.add(activeClass);
-                    item.scrollIntoView();
                 };
             });
         });
